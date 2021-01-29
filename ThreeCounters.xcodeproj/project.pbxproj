@@ -11,6 +11,13 @@
 		68114C3225C34F9D00A9F7DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68114C3125C34F9C00A9F7DA /* ContentView.swift */; };
 		68114C3425C34F9E00A9F7DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68114C3325C34F9E00A9F7DA /* Assets.xcassets */; };
 		68114C3725C34F9E00A9F7DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68114C3625C34F9E00A9F7DA /* Preview Assets.xcassets */; };
+		68114C4025C34FF700A9F7DA /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68114C3F25C34FF700A9F7DA /* RoundButton.swift */; };
+		68114C4325C350EE00A9F7DA /* TextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68114C4225C350EE00A9F7DA /* TextLabel.swift */; };
+		68114C4625C3528B00A9F7DA /* CounterFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68114C4525C3528B00A9F7DA /* CounterFunction.swift */; };
+		68114C4D25C357D600A9F7DA /* RoundButton2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68114C4C25C357D600A9F7DA /* RoundButton2.swift */; };
+		68114C5025C357E100A9F7DA /* RoundButton3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68114C4F25C357E100A9F7DA /* RoundButton3.swift */; };
+		68114C5725C358BA00A9F7DA /* CounterTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68114C5625C358BA00A9F7DA /* CounterTwo.swift */; };
+		68114C5A25C358C900A9F7DA /* CounterThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68114C5925C358C900A9F7DA /* CounterThree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,13 @@
 		68114C3325C34F9E00A9F7DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68114C3625C34F9E00A9F7DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		68114C3825C34F9E00A9F7DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68114C3F25C34FF700A9F7DA /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		68114C4225C350EE00A9F7DA /* TextLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLabel.swift; sourceTree = "<group>"; };
+		68114C4525C3528B00A9F7DA /* CounterFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFunction.swift; sourceTree = "<group>"; };
+		68114C4C25C357D600A9F7DA /* RoundButton2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton2.swift; sourceTree = "<group>"; };
+		68114C4F25C357E100A9F7DA /* RoundButton3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton3.swift; sourceTree = "<group>"; };
+		68114C5625C358BA00A9F7DA /* CounterTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterTwo.swift; sourceTree = "<group>"; };
+		68114C5925C358C900A9F7DA /* CounterThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				68114C2F25C34F9C00A9F7DA /* ThreeCountersApp.swift */,
-				68114C3125C34F9C00A9F7DA /* ContentView.swift */,
+				68114C5425C358A000A9F7DA /* Model */,
+				68114C5225C3586800A9F7DA /* Views */,
 				68114C3325C34F9E00A9F7DA /* Assets.xcassets */,
 				68114C3825C34F9E00A9F7DA /* Info.plist */,
 				68114C3525C34F9E00A9F7DA /* Preview Content */,
@@ -67,6 +82,28 @@
 				68114C3625C34F9E00A9F7DA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		68114C5225C3586800A9F7DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				68114C3125C34F9C00A9F7DA /* ContentView.swift */,
+				68114C3F25C34FF700A9F7DA /* RoundButton.swift */,
+				68114C4C25C357D600A9F7DA /* RoundButton2.swift */,
+				68114C4F25C357E100A9F7DA /* RoundButton3.swift */,
+				68114C4225C350EE00A9F7DA /* TextLabel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		68114C5425C358A000A9F7DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				68114C4525C3528B00A9F7DA /* CounterFunction.swift */,
+				68114C5625C358BA00A9F7DA /* CounterTwo.swift */,
+				68114C5925C358C900A9F7DA /* CounterThree.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +175,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68114C4025C34FF700A9F7DA /* RoundButton.swift in Sources */,
+				68114C4625C3528B00A9F7DA /* CounterFunction.swift in Sources */,
+				68114C5A25C358C900A9F7DA /* CounterThree.swift in Sources */,
 				68114C3225C34F9D00A9F7DA /* ContentView.swift in Sources */,
+				68114C5025C357E100A9F7DA /* RoundButton3.swift in Sources */,
 				68114C3025C34F9C00A9F7DA /* ThreeCountersApp.swift in Sources */,
+				68114C5725C358BA00A9F7DA /* CounterTwo.swift in Sources */,
+				68114C4325C350EE00A9F7DA /* TextLabel.swift in Sources */,
+				68114C4D25C357D600A9F7DA /* RoundButton2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ThreeCounters/Preview Content\"";
 				DEVELOPMENT_TEAM = B9GKQ3WWHT;
@@ -279,6 +324,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = co.omboiofficial.ThreeCounters;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,6 +335,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ThreeCounters/Preview Content\"";
 				DEVELOPMENT_TEAM = B9GKQ3WWHT;
@@ -301,6 +348,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = co.omboiofficial.ThreeCounters;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
